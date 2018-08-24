@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Shadows+Into+Light');
+
+        .square {
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            color: navy;
+        }
+
+        h1 {
+            border-bottom: 1px solid black;
+            text-align: center;
+            font-family: 'Shadows Into Light', cursive;
+        }
+
+        body {
+            background-color: #EAF2EF
+        }
+
+
+        
+    </style>
+  
+
+</head>
+
+
+<body onload="startGame();">
+    <h1>Tic Tac Toe game!</h1>
+    <div id="message">messages will go here</div>
+    <table border="2">
+        <tr>
+            <td id="s1" class="square" onclick="nextMove(this);"></td>
+            <td id="s2" class="square" onclick="nextMove(this);"></td>
+            <td id="s3" class="square" onclick="nextMove(this);"></td>
+        </tr>
+        <tr>
+            <td id="s4" class="square" onclick="nextMove(this);"></td>
+            <td id="s5" class="square" onclick="nextMove(this);"></td>
+            <td id="s6" class="square" onclick="nextMove(this);"></td>
+        </tr>
+        <tr>
+            <td id="s7" class="square" onclick="nextMove(this);"></td>
+            <td id="s8" class="square" onclick="nextMove(this);"></td>
+            <td id="s9" class="square" onclick="nextMove(this);"></td>
+        </tr>
+        
+        
+    </table>
+
+
+
+<script src="script.js"></script>
+
+
+
+
+
+</body>
+</html>
